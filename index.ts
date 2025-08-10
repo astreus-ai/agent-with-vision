@@ -17,7 +17,7 @@ async function main() {
   const result = await agent.ask("Analyze this image and describe what you see", {
     attachments: [{
       type: 'image',
-      path: './screenshot.png'
+      path: './image.jpg'
     }]
   });
 
